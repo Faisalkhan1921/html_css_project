@@ -149,3 +149,59 @@
     font-size: 23px;
     color: chocolate;
 }
+
+
+/* panel section in header  */
+
+.panel{
+    display: flex;
+    background-color: #222f3d;
+    height: 40px;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops{
+    display: flex;
+    flex-basis: 80%;
+    font-size: 0.85rem;
+}
+
+.panel-ops p{
+    margin-right: 20px;
+}
+
+.panel-deals{
+    font-size: 0.9rem;
+}
+
+
+
+
+/* hero section coding here  */
+
+.hero-section{
+    background-image: url('images/hero_image.jpg');
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg{
+    width: 80%;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.hero-msg  a{
+    color: blue;
+}
